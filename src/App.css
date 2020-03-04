@@ -13,7 +13,7 @@
   --mainBlack: #222;
   --mainGrey: #ececec;
   --darkGrey: #424242;
-  --mainTransition: all 0.15s linear;
+  --mainTransition: all 0.1s linear;
   --mainSpacing: 1.5px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
@@ -22,7 +22,7 @@
 body {
   /* padding-top: 62px; */
   color: var(--mainBlack);
-  background: var(--darkGrey);
+  background: var(--mainWhite);
   font-family: 'open sans';
   line-height: 1.4;
 }
