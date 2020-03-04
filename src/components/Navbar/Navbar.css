@@ -19,7 +19,7 @@
 }
 .nav-icon {
   font-size: 1.5rem;
-  color: var(--primaryColor);
+  color: var(--mainBlack);
 }
 .nav-links {
   height: 0;
