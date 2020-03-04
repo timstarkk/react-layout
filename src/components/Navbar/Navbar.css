@@ -26,6 +26,7 @@
   overflow: hidden;
   transition: var(--mainTransition);
   list-style-type: none;
+  /* background-color: var(--mainWhite); */
 } 
 .nav-links a {
   display: block;
@@ -39,10 +40,10 @@
   letter-spacing: var(--mainSpacing);
 }
 .nav-links a:hover {
-  color: var(--primaryColor);
+  color: var(--mainWhite);
 }
 .show-nav {
-  height: 100px;
+  height: auto;
 }
 .logo-div {
   /* width: 250px; */
@@ -74,6 +75,7 @@
     height: auto;
     display: flex;
     margin-left: 4rem;
+    background-color: transparent;
   }
   .nav-links a {
     margin: 0 1rem;
