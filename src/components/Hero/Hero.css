@@ -1,6 +1,8 @@
 .defaultHero {
   min-height: 100vh;
-  background: url("../../images/defaultHero.jpeg") center/cover no-repeat;
+  background: url("../../images/defaultHero.jpeg") no-repeat;
+  background-position: 50% 33%;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
