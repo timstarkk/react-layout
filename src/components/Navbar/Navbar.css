@@ -19,7 +19,7 @@
 }
 .nav-icon {
   font-size: 1.5rem;
-  color: var(--mainBlack);
+  color: var(--mainWhite);
 }
 .nav-links {
   height: 0;
@@ -29,10 +29,11 @@
   /* background-color: var(--mainWhite); */
 } 
 .nav-links a {
+  font-family: nunito;
   display: block;
   text-decoration: none;
   padding: 1rem 0;
-  color: var(--mainBlack);
+  color: rgba(255,255,255,.5);
   transition: var(--mainTransition);
   text-align: center;
   font-size: 1rem;
@@ -40,7 +41,7 @@
   letter-spacing: var(--mainSpacing);
 }
 .nav-links a:hover {
-  color: var(--mainWhite);
+  color: var(--mainWhite, 30%);
 }
 .show-nav {
   height: auto;
@@ -54,7 +55,8 @@
   align-items: center;
 }
 .logo-text {
-  color: var(--mainBlack);
+  font-family: nunito;
+  color: rgba(255,255,255,.5);
   text-decoration: none;
   font-size: 24px;
   font-weight: 700;
