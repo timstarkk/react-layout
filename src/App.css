@@ -22,12 +22,17 @@
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   /* padding-top: 62px; */
   color: var(--mainBlack);
   background: var(--mainGrey);
   font-family: 'nunito';
   line-height: 1.4;
+  overflow-x: hidden;
 }
 h1 {
   font-weight: 700;
