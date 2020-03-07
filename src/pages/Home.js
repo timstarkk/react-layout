@@ -1,17 +1,23 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Hero from '../components/Hero/Hero';
-// import Banner from '../components/Banner';
-// import { Link } from 'react-router-dom';
-import Info from '../components/Info/Info';
+import Banner from '../components/Banner/Banner';
+import About from '../components/About/About';
+import Projects from '../components/Projects/Projects';
+import Contact from '../components/Contact/Contact';
 
 
 export default function Home() {
     return (
         <>
             <Hero>
-                {/* <Banner /> */}
+                <Banner title="TIM STARK" subtitle="Full-Stack Developer">
+                    <Link to="#" className="btn btn-primary">view projects</Link>
+                </Banner>
             </Hero>
-            <Info />
+            <About />
+            <Projects />
+            <Contact />
         </>
     )
 }
