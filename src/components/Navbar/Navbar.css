@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   padding: 0.75rem 2rem;
   background: transparent;
   z-index: 1;
@@ -61,6 +61,23 @@
   font-size: 24px;
   font-weight: 700;
   letter-spacing: var(--mainSpacing);
+}
+
+
+.navbar.nav-scrolled {
+  background-color: var(--mainGrey);
+}
+
+.logo-text.nav-scrolled {
+  color: var(--darkGrey);
+}
+
+.nav-icon.nav-scrolled {
+  color: var(--darkGrey);
+}
+
+.nav-links.nav-scrolled a {
+  color: var(--darkGrey);
 }
 
 @media screen and (min-width: 768px) {
