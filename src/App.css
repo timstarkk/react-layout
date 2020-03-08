@@ -115,6 +115,11 @@ h6 {
 .btn-secondary:hover {
   background-color: var(--lightDarkGrey);
 }
+
+.btn:focus {
+  outline: none;
+}
+
 /* start container */
 .container {
   padding-right: 15px;
