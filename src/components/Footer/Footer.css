@@ -1,0 +1,16 @@
+.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: var(--darkGrey);
+}
+
+.footer > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: rgba(255,255,255,.5);
+    font-size: 80%;
+}
