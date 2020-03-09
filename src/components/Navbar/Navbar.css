@@ -78,6 +78,11 @@
 
 .nav-links.nav-scrolled a {
   color: var(--darkGrey);
+  background-color: var(--mainGrey);
+}
+
+.nav-links.nav-scrolled a:hover {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
