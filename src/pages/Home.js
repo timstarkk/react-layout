@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import Hero from '../components/Hero/Hero';
 import Banner from '../components/Banner/Banner';
 import About from '../components/About/About';
@@ -13,7 +13,7 @@ export default function Home() {
         <>
             <Hero>
                 <Banner title="TIM STARK" subtitle="Full-Stack Developer">
-                    <Link to="#" className="btn btn-primary">view projects</Link>
+                    <Link smooth to="#projects" className="btn btn-primary">view projects</Link>
                 </Banner>
             </Hero>
             <About />
