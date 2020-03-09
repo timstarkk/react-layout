@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './Navbar.css';
 // import logo from '../../images/logo.png';
 import { GoThreeBars as Hamburger } from "react-icons/go";
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 export default class Navbar extends Component {
     state = {
@@ -32,9 +33,11 @@ export default class Navbar extends Component {
             <nav className={"navbar " + (this.state.scrolled ? "nav-scrolled" : "")}>
                 <div className="nav-center">
                     <div className="nav-header">
-                        <Link to="/" className="text-link">
+                        <Link smooth to="#top" className="text-link">
                             <div className="logo-div">
-                                <p className={"logo-text " + (this.state.scrolled ? "nav-scrolled" : "")}>Tim Stark</p>
+                                <p className={"logo-text " + (this.state.scrolled ? "nav-scrolled" : "")}>
+                                    Tim Stark
+                                </p>
                             </div>
                             {/* <img src={logo} alt="logo" style={{ width: "250px", height: "auto" }} /> */}
                         </Link>
@@ -42,9 +45,18 @@ export default class Navbar extends Component {
                             <Hamburger className={"nav-icon " + (this.state.scrolled ? 'nav-scrolled' : '')} />
                         </button>
                     </div>
-                    <ul className={this.state.isOpen ? "nav-links show-nav " + (this.state.scrolled ? 'nav-scrolled' : '') : "nav-links " + (this.state.scrolled ? 'nav-scrolled' : '')}>
+                    <ul className={this.state.isOpen ? "nav-links show-nav nav-scrolled" : "nav-links " + (this.state.scrolled ? 'nav-scrolled' : '')}>
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link smooth to="#about">About</Link>
+                        </li>
+                        <li>
+                            <Link smooth to="#projects">Projects</Link>
+                        </li>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1ryocksh7vhpRQTMPjuH5V1NDCsAr2ep6/view?usp=sharing" target="_blank">Resume</a>
+                        </li>
+                        <li>
+                            <Link smooth to="#contact">Contact</Link>
                         </li>
                     </ul>
                 </div >
