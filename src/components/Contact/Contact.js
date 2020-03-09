@@ -5,7 +5,7 @@ import { MdEmail, MdPhoneIphone } from 'react-icons/md';
 
 export default function Contact() {
     return (
-        <div className="contact-section">
+        <div className="contact-section" id="contact">
             <div className="container contact-container">
                 <section className="contact-card">
                     <div className="contact-card-body">
