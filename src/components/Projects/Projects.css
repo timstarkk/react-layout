@@ -30,10 +30,6 @@
     /* transition: all 0.3s cubic-bezier(.25,.8,.25,1); */
 }
 
-/* .card:hover {
-    box-shadow: 0 3px 12px rgba(0,0,0,0.20), 0 3px 12px rgba(0,0,0,0.24);
-} */
-
 .card h3 {
     color: var(--mainWhite);
     margin-bottom: 1rem;
@@ -155,6 +151,10 @@
 .card:nth-child(even) hr {
     margin-right: 0px;
     margin-left: auto;
+}
+
+#projects {
+    margin-bottom: 5rem;
 }
 
 @media (max-width: 992px) {
