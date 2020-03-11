@@ -95,7 +95,7 @@ export default function Projects() {
                                     <a href="https://fin-news-talk.herokuapp.com" target="_blank">
                                         <button class="btn btn-primary" >View Project</button>
                                     </a>
-                                    <a href="https://github.com/timstarkk/skyskraper" target="_blank">
+                                    <a href="https://github.com/timstarkk/news-scraper" target="_blank">
                                         <button class="btn btn-secondary">View Source</button>
                                     </a>
                                     <hr />
@@ -155,10 +155,10 @@ export default function Projects() {
                                 <h3>Card Fighting Game</h3>
                                 <p>A simplistic card-fighting game where the user must choose a hero and defeat all remaining enemies to win. Built with html/css/javascript, using bootstrap and jQuery. This was my first time trying animations.
                             <br /><br />
-                                    <a href="https://timstarkk.github.io/unit-4-game" target="_blank">
+                                    <a href="https://timstarkk.github.io/card-game" target="_blank">
                                         <button class="btn btn-primary" >View Project</button>
                                     </a>
-                                    <a href="https://github.com/timstarkk/unit-4-game" target="_blank">
+                                    <a href="https://github.com/timstarkk/card-game" target="_blank">
                                         <button class="btn btn-secondary">View Source</button>
                                     </a>
                                     <hr />
