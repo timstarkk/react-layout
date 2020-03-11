@@ -5,9 +5,9 @@ export default function About() {
     return (
         <div className="about-section" id="about">
             <div className="container">
-                <h1>Doing what I love.</h1>
-                <p>I am a Full-Stack Developer who is design-minded. Most of my work has been with JavaScript. Although I am currently in love with the M.E.R.N. stack, I always enjoy learning and working with new technologies. You can view my <a href="https://drive.google.com/file/d/1ryocksh7vhpRQTMPjuH5V1NDCsAr2ep6/view?usp=sharing"
-                    target="_blank">resume here</a>, and you can view some of my latest projects down below.</p>
+                <h1>About Me</h1>
+                <p>Full-Stack Developer who recently earned a certificate in development from the University of Texas, with newly developed skills in JavaScript, HTML/CSS, React.js, and responsive web design. Known as an innovative problem-solver who is passionate about developing apps with readable, scalable code behind the curtain. Able to take the lead on projects and communicate effectively with other team members including scheduling video calls if necessary to meet deadlines. Excited to leverage skills in the future as part of a fast-paced, quality-driven team in order to build user-focused online experiences. You can view my <a href="https://docs.google.com/document/d/1bJizKYaqPcO8dVuts6jLF4cb9eLOtom27BCUOCVxnpw/edit?usp=sharing"
+                    target="_blank">resume here</a>, and my latest projects down below.</p>
             </div>
         </div>
     )
