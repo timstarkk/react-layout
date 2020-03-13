@@ -4,6 +4,8 @@
 
 My personal portfolio
 
+* [View Project](https://www.timstark.dev)
+
 ## Getting Started
 
 run the following to start the application:
