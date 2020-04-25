@@ -9,7 +9,7 @@ import bookShoe from '../../images/bookShoe.png';
 import gifSearch from '../../images/gifSearch.png';
 import skyskraper from '../../images/skyskraper.png';
 import rpgGame from '../../images/rpgGame.png';
-import edeburgah from '../../images/edeburgah.png';
+import shoestore from '../../images/shoestore.png';
 
 AOS.init({
     offet: 200,
@@ -22,6 +22,28 @@ export default function Projects() {
             <div id="projects"></div>
             <div className="container">
                 <section className="featured-card" data-aos="fade-up">
+                    <img src={shoestore} alt="E-commerce shoe store site" />
+                    <div>
+                        <div className="border-box">
+                            <div className="text-box">
+                                <h3>ShoeStore</h3>
+                                <p>A serverless E-commerce website built with React.js and AWS Cloud. AWS services used include Amplify, Cognito, AppSync, DynamoDB, and S3. The shopping cart was built without libraries, and includes cart persistence during user sign-in.
+                                <br /><br />
+                                    <a href="https://master.d1buvo1t3dd1m7.amplifyapp.com/" target="_blank">
+                                        <button class="btn btn-primary" >View Project</button>
+                                    </a>
+                                    <a href="https://github.com/timstarkk/shoestore" target="_blank">
+                                        <button class="btn btn-secondary">View Source</button>
+                                    </a>
+                                    <hr />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br></br>
+
+                <section className="card" data-aos="fade-right">
                     <img src={outcache} alt="Hotel Room Locator" />
                     <div>
                         <div className="border-box">
@@ -41,8 +63,8 @@ export default function Projects() {
                         </div>
                     </div>
                 </section>
-                <br></br>
-                <section className="card" data-aos="fade-right">
+
+                <section className="card" data-aos="fade-left">
                     <img src={roomBook} alt="Hotel Room Locator" />
                     <div>
                         <div className="border-box">
@@ -63,7 +85,7 @@ export default function Projects() {
                     </div>
                 </section>
 
-                <section className="card" data-aos="fade-left">
+                <section className="card" data-aos="fade-right">
                     <img src={bookShoe} alt="Book and Shoe Finder" />
                     <div>
                         <div className="border-box">
@@ -84,7 +106,7 @@ export default function Projects() {
                     </div>
                 </section>
 
-                <section className="card" data-aos="fade-right">
+                <section className="card" data-aos="fade-left">
                     <img src={skyskraper} alt="Mongo News Scraper" />
                     <div>
                         <div className="border-box">
@@ -96,27 +118,6 @@ export default function Projects() {
                                         <button class="btn btn-primary" >View Project</button>
                                     </a>
                                     <a href="https://github.com/timstarkk/news-scraper" target="_blank">
-                                        <button class="btn btn-secondary">View Source</button>
-                                    </a>
-                                    <hr />
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="card" data-aos="fade-left">
-                    <img src={edeburgah} alt="SQL burger app" />
-                    <div>
-                        <div className="border-box">
-                            <div className="text-box">
-                                <h3>SQL burger app</h3>
-                                <p>A simple C.R.U.D. app built with Node.js and MySQL, hosted on Heroku. The app allows users to add burgers to the list and 'devour' them. This app uses JawsDB for hosting the database.
-                            <br /><br />
-                                    <a href="https://edeburgah.herokuapp.com" target="_blank">
-                                        <button class="btn btn-primary" >View Project</button>
-                                    </a>
-                                    <a href="https://github.com/timstarkk/burger" target="_blank">
                                         <button class="btn btn-secondary">View Source</button>
                                     </a>
                                     <hr />
