@@ -30,7 +30,7 @@ export default function Contact() {
                         <MdPhoneIphone className="contact-icon" />
                         <h4>PHONE</h4>
                         <div className="card-line" />
-                        <p>+1 (281) 732-1836</p>
+                        <p>+1 (512) 434-0744</p>
                     </div>
                 </section>
             </div>
