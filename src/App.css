@@ -30,7 +30,7 @@ body {
   /* padding-top: 62px; */
   color: var(--mainBlack);
   background: var(--mainGrey);
-  font-family: 'nunito';
+  font-family: 'Open Sans';
   line-height: 1.4;
   overflow-x: hidden;
 }
@@ -76,7 +76,7 @@ h6 {
   -webkit-box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
   box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  font-family: 'Open Sans';
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
