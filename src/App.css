@@ -121,6 +121,10 @@ h6 {
   outline: none;
 }
 
+#big-btn {
+  font-weight: 400;
+}
+
 /* start container */
 .container {
   padding-right: 15px;
