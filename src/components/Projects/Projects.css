@@ -206,4 +206,8 @@
     .featured-card {
         grid-template-columns: 5fr 3fr;
     }
+
+    .featured-card > div {
+        height: 299px;
+    }
 }
