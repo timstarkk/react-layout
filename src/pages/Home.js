@@ -13,7 +13,7 @@ export default function Home() {
         <>
             <Hero>
                 <Banner title="TIM STARK" subtitle="Full-Stack Developer">
-                    <Link smooth to="#projects" className="btn btn-primary">view projects</Link>
+                    <Link smooth to="#projects" id="big-btn" className="btn btn-primary">view projects</Link>
                 </Banner>
             </Hero>
             <About />
