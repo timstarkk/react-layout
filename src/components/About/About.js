@@ -6,7 +6,7 @@ export default function About() {
         <div className="about-section" id="about">
             <div className="container">
                 <h1>About Me</h1>
-                <p>Full-Stack Developer who recently earned a certificate in development from the University of Texas, with newly developed skills in JavaScript, HTML/CSS, React.js, and responsive web design. Known as an innovative problem-solver who is passionate about developing apps with readable, scalable code behind the curtain. Able to take the lead on projects and communicate effectively with other team members including scheduling video calls if necessary to meet deadlines. Excited to leverage skills in the future as part of a fast-paced, quality-driven team in order to build user-focused online experiences. You can view my <a href="https://drive.google.com/file/d/1m0tYGKQOz4Vew-aQhgQABa5ETkxLzUWA/view?usp=sharing"
+                <p>I recently earned a certificate in Full-Stack Web Development from The University of Texas at Austin. Since graduating I have continued to grow my JavaScript and React.js skills, as well as gaining hands on experience with AWS cloud technologies. Through online courses, I have also gained a strong understanding of development  fundamentals, such as data structures and algorithms. I am currently working on a real-world React.js B2B application, as well as creating my first React Native app using Expo. I have also begun to contribute to open source projects. You can view my <a href="https://drive.google.com/file/d/1m0tYGKQOz4Vew-aQhgQABa5ETkxLzUWA/view?usp=sharing"
                     target="_blank">resume here</a>, and my latest projects down below.</p>
             </div>
         </div>
