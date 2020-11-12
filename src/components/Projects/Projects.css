@@ -136,6 +136,10 @@
     margin-right: 1rem;
 }
 
+hr {
+    border-style: none;
+}
+
 .card hr {
     width: 130px;
     margin: .5rem 0px 0px 0px;
