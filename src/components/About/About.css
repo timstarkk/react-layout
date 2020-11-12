@@ -1,8 +1,9 @@
 .about-section {
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: -webkit-gradient(linear,left top,left bottom,from(#161616),color-stop(75%,rgba(22,22,22,.9)),to(rgba(22,22,22,.8)));
-    background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+    background: #272727;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #333333, #272727, #161616);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #333333, #272727, #161616); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     justify-content: center;
     align-items: center;
