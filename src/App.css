@@ -8,9 +8,9 @@
 }
 
 :root {
-  --primaryColor: #64a19d;
-  --primaryColorLight: #80cfca;
-  --primaryColorDark: #4f837f;
+  --primaryColor: #388f40;
+  --primaryColorLight: #3fa049;
+  --primaryColorDark: #307c37;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -107,7 +107,7 @@ h6 {
   font-weight: 500; */
 }
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: var(--primaryColorLight);
 }
 
 .btn-secondary {
